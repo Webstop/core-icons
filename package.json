@@ -1,0 +1,9 @@
+{
+  "name": "core-icons",
+  "version": "0.3.3",
+  "description": "Icons for Webstop's Core Grocery Front-End framework",
+  "private": true,
+  "author": "Greg Hemphill",
+  "license": "private",
+  "main": "/assets/scss/core-icons-as-fonts.scss"
+}
