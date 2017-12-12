@@ -2,6 +2,10 @@
 
 Icons for Webstop's Core Grocery Front-End framework. Used as a Bower component. 
 
+## Usage & Icon Library
+
+For a list of icons available and usage directions., visit the [Github Page](https://github.io/Webstop/core-icons).
+
 ## Installation
 
 This Bower component is already installed in the core-ember app and will be installed once all Bower components are installed. 
@@ -16,9 +20,9 @@ yarn add git@github.com:Webstop/core-icons.git
 ## Using NPM
 
 ```sh
-npm install Webstop/core-icons
+npm install Webstop/core-icons --save-prod
 ```
-
+ 
 ## Using Bower
 
 #### To install in the core-ember app

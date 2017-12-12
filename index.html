@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="https://s3.grocerywebsite.com/core-repos/core-icons/v3.2.1/core-icons/assets/core-icons-as-fonts.css">
+    <style>
+      .usage-example {
+        padding-top: 15px;
+        margin: 15px;
+        border: 1px solid #ccc;
+      }
+      .usage-example-icon {
+        display: block;
+        font-size: 4rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      .my-color { color: #369; }
+      .my-big { font-size: 8rem; }
+      .my-small { font-size: 0.8rem; }
+
+      .icons { background: #ddd; padding: 15px; margin: 0;}
+      .example-icon{
+        padding-top: 10px;
+        background: #eee;
+        min-width: 300px;
+        margin: 15px;
+      }
+      .icons i { font-size: 4rem; width: 4rem; margin: 5px auto 5px auto; display: block; }
+      .example-icon-name {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Core-Icons</h1>
+
+      <h2>Setup &amp; Installation</h2>
+
+      <p><strong>None</strong>, core-Icons is already included on every consumer facing and admin page for Webstop's Core product. This includes Ember, Rails, and Lasso pages.</p>
+
+      <p>If you wish to install these icons outside a Webstop core site, visit the <a href="https://github.com/Webstop/core-icons">README.md file</a> for directions.</p>
+
+
+
+      <h2>Usage Examples</h2>
+
+      <p>We've included a few basic examples on how to do common tasks with these icons.</p>
+
+      <div class="row">
+        <div class="col usage-example">
+          <h4>Basic Example:</h4>
+
+          <i class="icon-recipes usage-example-icon"></i>
+
+          <span class="badge badge-primary">HTML</span>
+          <pre>&lt;i class="icon-recipes"&gt;&lt;i&gt; </pre>
+        </div>
+
+        <div class="col usage-example">
+          <h4>Color Example:</h4>
+
+          <i class="icon-recipes usage-example-icon my-color"></i>
+
+          <span class="badge badge-primary">HTML</span>
+          <pre>&lt;i class="icon-recipes my-color"&gt;&lt;i&gt; </pre>
+
+          <span class="badge badge-success">CSS</span>
+          <pre>.my-color { color: #369; }</pre>
+        </div>
+
+        <div class="col usage-example">
+          <h4>Small Example:</h4>
+
+          <i class="icon-recipes usage-example-icon my-small"></i>
+
+          <span class="badge badge-primary">HTML</span>
+          <pre>&lt;i class="icon-recipes my-small"&gt;&lt;i&gt; </pre>
+
+          <span class="badge badge-success">CSS</span>
+          <pre>.my-small { font-size: 0.8rem; }</pre>
+        </div>
+
+        <div class="col usage-example">
+          <h4>Big Example:</h4>
+
+          <i class="icon-recipes usage-example-icon my-big"></i>
+
+          <span class="badge badge-primary">HTML</span>
+          <pre>&lt;i class="icon-recipes my-big"&gt;&lt;i&gt; </pre>
+
+          <span class="badge badge-success">CSS</span>
+          <pre>.my-small { font-size: 8rem; }</pre>
+        </div>
+
+        <div class="col usage-example">
+          <h4>Button Example:</h4>
+
+          <button class="btn btn-primary"><i class="icon-plus-circle-solid"></i> Add Thing</button>
+          <br>
+          <br>
+
+          <span class="badge badge-primary">HTML</span>
+          <pre>&lt;button class="btn btn-primary"&gt;
+  &lt;i class="icon-plus-circle-solid"&gt;&lt;i&gt; Add Thing
+&lt;button&gt;</pre>
+
+        </div>
+
+      </div>
+
+
+
+
+      <h2>Icons</h2>
+
+      <p>Each icon is listed with it's CSS class name underneather it.</p>
+
+      <div class="icons row">
+        <div class="example-icon col">
+          <i class="icon-arrow-down"></i>
+          <p class="example-icon-name"><code>icon-arrow-down</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-arrow-left"></i>
+          <p class="example-icon-name"><code>icon-arrow-left</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-arrow-right"></i>
+          <p class="example-icon-name"><code>icon-arrow-right</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-arrow-up"></i>
+          <p class="example-icon-name"><code>icon-arrow-up</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-barcode"></i>
+          <p class="example-icon-name"><code>icon-barcode</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-book-closed-bookmark"></i>
+          <p class="example-icon-name"><code>icon-book-closed-bookmark</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-book-closed"></i>
+          <p class="example-icon-name"><code>icon-book-closed</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-book-open"></i>
+          <p class="example-icon-name"><code>icon-book-open</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-bookmark-solid"></i>
+          <p class="example-icon-name"><code>icon-bookmark-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-bookmark"></i>
+          <p class="example-icon-name"><code>icon-bookmark</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-bookmarks-solid"></i>
+          <p class="example-icon-name"><code>icon-bookmarks-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-camera"></i>
+          <p class="example-icon-name"><code>icon-camera</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cancel-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-cancel-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cancel-circle"></i>
+          <p class="example-icon-name"><code>icon-cancel-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cancel"></i>
+          <p class="example-icon-name"><code>icon-cancel</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-checkbox-checked-solid"></i>
+          <p class="example-icon-name"><code>icon-checkbox-checked-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-checkbox-unchecked2"></i>
+          <p class="example-icon-name"><code>icon-checkbox-unchecked2</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-checkmark-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-checkmark-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-checkmark-fancy"></i>
+          <p class="example-icon-name"><code>icon-checkmark-fancy</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-checkmark"></i>
+          <p class="example-icon-name"><code>icon-checkmark</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-circle"></i>
+          <p class="example-icon-name"><code>icon-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-clipboard-checked"></i>
+          <p class="example-icon-name"><code>icon-clipboard-checked</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-clock-solid"></i>
+          <p class="example-icon-name"><code>icon-clock-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-clock"></i>
+          <p class="example-icon-name"><code>icon-clock</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-check-solid"></i>
+          <p class="example-icon-name"><code>icon-cloud-check-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-check"></i>
+          <p class="example-icon-name"><code>icon-cloud-check</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-download-solid"></i>
+          <p class="example-icon-name"><code>icon-cloud-download-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-download"></i>
+          <p class="example-icon-name"><code>icon-cloud-download</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-solid"></i>
+          <p class="example-icon-name"><code>icon-cloud-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-upload-solid"></i>
+          <p class="example-icon-name"><code>icon-cloud-upload-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud-upload"></i>
+          <p class="example-icon-name"><code>icon-cloud-upload</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-cloud"></i>
+          <p class="example-icon-name"><code>icon-cloud</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-coupons"></i>
+          <p class="example-icon-name"><code>icon-coupons</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-create"></i>
+          <p class="example-icon-name"><code>icon-create</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-desktop-computer"></i>
+          <p class="example-icon-name"><code>icon-desktop-computer</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-edit"></i>
+          <p class="example-icon-name"><code>icon-edit</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email-block"></i>
+          <p class="example-icon-name"><code>icon-email-block</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email-blockemail-block-solid"></i>
+          <p class="example-icon-name"><code>icon-email-blockemail-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-email-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email-send"></i>
+          <p class="example-icon-name"><code>icon-email-send</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email-solid"></i>
+          <p class="example-icon-name"><code>icon-email-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-email"></i>
+          <p class="example-icon-name"><code>icon-email</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-enlarge"></i>
+          <p class="example-icon-name"><code>icon-enlarge</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-facebook-block-solid"></i>
+          <p class="example-icon-name"><code>icon-facebook-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-facebook-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-facebook-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-facebook"></i>
+          <p class="example-icon-name"><code>icon-facebook</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-feed-block-solid"></i>
+          <p class="example-icon-name"><code>icon-feed-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-feed-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-feed-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-feed"></i>
+          <p class="example-icon-name"><code>icon-feed</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-google-plus-block-solid"></i>
+          <p class="example-icon-name"><code>icon-google-plus-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-google-plus-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-google-plus-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-google-plus"></i>
+          <p class="example-icon-name"><code>icon-google-plus</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-grid"></i>
+          <p class="example-icon-name"><code>icon-grid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-heart-solid"></i>
+          <p class="example-icon-name"><code>icon-heart-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-heart"></i>
+          <p class="example-icon-name"><code>icon-heart</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-home"></i>
+          <p class="example-icon-name"><code>icon-home</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-image-solid"></i>
+          <p class="example-icon-name"><code>icon-image-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-image"></i>
+          <p class="example-icon-name"><code>icon-image</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-images-soldi"></i>
+          <p class="example-icon-name"><code>icon-images-soldi</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-images"></i>
+          <p class="example-icon-name"><code>icon-images</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-info-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-info-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-info-circle"></i>
+          <p class="example-icon-name"><code>icon-info-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-instagram"></i>
+          <p class="example-icon-name"><code>icon-instagram</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-lifebuoy"></i>
+          <p class="example-icon-name"><code>icon-lifebuoy</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-location"></i>
+          <p class="example-icon-name"><code>icon-location</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-menu"></i>
+          <p class="example-icon-name"><code>icon-menu</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-minus-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-minus-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-minus-circle"></i>
+          <p class="example-icon-name"><code>icon-minus-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-minus"></i>
+          <p class="example-icon-name"><code>icon-minus</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-mobile"></i>
+          <p class="example-icon-name"><code>icon-mobile</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-more-menu"></i>
+          <p class="example-icon-name"><code>icon-more-menu</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-notification-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-notification-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-notification-circle"></i>
+          <p class="example-icon-name"><code>icon-notification-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-off-site"></i>
+          <p class="example-icon-name"><code>icon-off-site</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-pharmacy"></i>
+          <p class="example-icon-name"><code>icon-pharmacy</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-phone"></i>
+          <p class="example-icon-name"><code>icon-phone</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-pinterest-block-solid"></i>
+          <p class="example-icon-name"><code>icon-pinterest-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-pinterest-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-pinterest-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-play-video"></i>
+          <p class="example-icon-name"><code>icon-play-video</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-play"></i>
+          <p class="example-icon-name"><code>icon-play</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-plus-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-plus-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-plus-circle"></i>
+          <p class="example-icon-name"><code>icon-plus-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-plus"></i>
+          <p class="example-icon-name"><code>icon-plus</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-ptags-tilt-solid"></i>
+          <p class="example-icon-name"><code>icon-ptags-tilt-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-questio-circle"></i>
+          <p class="example-icon-name"><code>icon-questio-circle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-question-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-question-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-recipes"></i>
+          <p class="example-icon-name"><code>icon-recipes</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-search"></i>
+          <p class="example-icon-name"><code>icon-search</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-share"></i>
+          <p class="example-icon-name"><code>icon-share</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-shopping-list"></i>
+          <p class="example-icon-name"><code>icon-shopping-list</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-shrink"></i>
+          <p class="example-icon-name"><code>icon-shrink</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-spinner"></i>
+          <p class="example-icon-name"><code>icon-spinner</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-star-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-star-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-star-empty"></i>
+          <p class="example-icon-name"><code>icon-star-empty</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-star-half"></i>
+          <p class="example-icon-name"><code>icon-star-half</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-star-solid"></i>
+          <p class="example-icon-name"><code>icon-star-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-sync"></i>
+          <p class="example-icon-name"><code>icon-sync</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tablet"></i>
+          <p class="example-icon-name"><code>icon-tablet</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tag-side-solid"></i>
+          <p class="example-icon-name"><code>icon-tag-side-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tag-side"></i>
+          <p class="example-icon-name"><code>icon-tag-side</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tag-tilted-solid"></i>
+          <p class="example-icon-name"><code>icon-tag-tilted-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tag-tilted"></i>
+          <p class="example-icon-name"><code>icon-tag-tilted</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tags-side-solid"></i>
+          <p class="example-icon-name"><code>icon-tags-side-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tags-side"></i>
+          <p class="example-icon-name"><code>icon-tags-side</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tags-tilt"></i>
+          <p class="example-icon-name"><code>icon-tags-tilt</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-toggle-off"></i>
+          <p class="example-icon-name"><code>icon-toggle-off</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-toggle-on"></i>
+          <p class="example-icon-name"><code>icon-toggle-on</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tumblr-block-solid"></i>
+          <p class="example-icon-name"><code>icon-tumblr-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-tumblr"></i>
+          <p class="example-icon-name"><code>icon-tumblr</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-twitter-block-solid"></i>
+          <p class="example-icon-name"><code>icon-twitter-block-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-twitter-circle-solid"></i>
+          <p class="example-icon-name"><code>icon-twitter-circle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-twitter"></i>
+          <p class="example-icon-name"><code>icon-twitter</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-undo"></i>
+          <p class="example-icon-name"><code>icon-undo</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-user-solid"></i>
+          <p class="example-icon-name"><code>icon-user-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-user-two-tone"></i>
+          <p class="example-icon-name"><code>icon-user-two-tone</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-user"></i>
+          <p class="example-icon-name"><code>icon-user</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-warning-triangle-solid"></i>
+          <p class="example-icon-name"><code>icon-warning-triangle-solid</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-warning-triangle"></i>
+          <p class="example-icon-name"><code>icon-warning-triangle</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-youtube-square"></i>
+          <p class="example-icon-name"><code>icon-youtube-square</code></p>
+        </div>
+        <div class="example-icon col">
+          <i class="icon-youtube-wide"></i>
+          <p class="example-icon-name"><code>icon-youtube-wide</code></p>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
