@@ -4,7 +4,7 @@ Icons for Webstop's Core Grocery Front-End framework. Used as a Bower component.
 
 ## Usage & Icon Library
 
-For a list of icons available and usage directions., visit the [Github Page](https://github.io/Webstop/core-icons).
+For a list of icons available and usage directions., visit the [Github Page](https://webstop.github.io/core-icons).
 
 ## Installation
 
